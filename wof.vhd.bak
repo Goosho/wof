@@ -1,0 +1,50 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use ieee.std_logic_unsigned.all;
+use work.mypackage.all;
+
+entity wof is 
+	port(
+	
+			
+		  ssd1,ssd2,ssd3,ssd4: out std_logic_vector(6 downto 0);
+		  dout: out std_logic_vector(7 downto 0) :="00000001"
+	);
+	
+	
+end wof;
+
+
+architecture bhv of wof is
+
+	signal sclock,sclock_next : std_logic_vector(31 downto 0);
+	
+	signal ledclock: std_logic;
+	
+	
+	
+	begin
+		process(clk)
+		begin
+			if(pos_edge(clk)) then
+				sclock<=sclock_next;
+			end if;
+		end process;
+		sclock_next<= sclock_next+1;
+		
+		ledclock<= sclock(24);
+		ssdclock<= sclock(9);
+		
+		
+	
+		process(ledclock)
+		
+		begin
+			if(pos_edge(ledclock)) then
+				led<=led(6 downto 0 ) & led(7);
+			end if;
+			
+			
+		end process;
+

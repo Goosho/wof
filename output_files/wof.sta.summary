@@ -1,0 +1,149 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'FPGA_CLK'
+Slack : -2.266
+TNS   : -34.867
+
+Type  : Slow 1200mV 85C Model Setup 'slow_clock[9]'
+Slack : -1.628
+TNS   : -34.419
+
+Type  : Slow 1200mV 85C Model Setup 'slow_clock[24]'
+Slack : -0.232
+TNS   : -3.712
+
+Type  : Slow 1200mV 85C Model Setup 'btn'
+Slack : 0.210
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'FPGA_CLK'
+Slack : -1.331
+TNS   : -10.146
+
+Type  : Slow 1200mV 85C Model Hold 'slow_clock[9]'
+Slack : 0.408
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'slow_clock[24]'
+Slack : 0.427
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'btn'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'FPGA_CLK'
+Slack : -3.000
+TNS   : -35.125
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'btn'
+Slack : -3.000
+TNS   : -4.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'slow_clock[9]'
+Slack : -1.285
+TNS   : -56.540
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'slow_clock[24]'
+Slack : -1.285
+TNS   : -20.560
+
+Type  : Slow 1200mV 0C Model Setup 'FPGA_CLK'
+Slack : -1.902
+TNS   : -28.476
+
+Type  : Slow 1200mV 0C Model Setup 'slow_clock[9]'
+Slack : -1.342
+TNS   : -26.696
+
+Type  : Slow 1200mV 0C Model Setup 'slow_clock[24]'
+Slack : -0.252
+TNS   : -4.032
+
+Type  : Slow 1200mV 0C Model Setup 'btn'
+Slack : 0.297
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'FPGA_CLK'
+Slack : -1.168
+TNS   : -8.865
+
+Type  : Slow 1200mV 0C Model Hold 'slow_clock[9]'
+Slack : 0.365
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'slow_clock[24]'
+Slack : 0.386
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'btn'
+Slack : 0.398
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'FPGA_CLK'
+Slack : -3.000
+TNS   : -35.125
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'btn'
+Slack : -3.000
+TNS   : -4.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'slow_clock[9]'
+Slack : -1.285
+TNS   : -56.540
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'slow_clock[24]'
+Slack : -1.285
+TNS   : -20.560
+
+Type  : Fast 1200mV 0C Model Setup 'FPGA_CLK'
+Slack : -0.625
+TNS   : -5.777
+
+Type  : Fast 1200mV 0C Model Setup 'slow_clock[9]'
+Slack : -0.298
+TNS   : -1.338
+
+Type  : Fast 1200mV 0C Model Setup 'slow_clock[24]'
+Slack : 0.526
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'btn'
+Slack : 0.626
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'FPGA_CLK'
+Slack : -0.859
+TNS   : -8.095
+
+Type  : Fast 1200mV 0C Model Hold 'slow_clock[9]'
+Slack : 0.074
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'slow_clock[24]'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'btn'
+Slack : 0.208
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'FPGA_CLK'
+Slack : -3.000
+TNS   : -29.550
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'btn'
+Slack : -3.000
+TNS   : -4.109
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'slow_clock[9]'
+Slack : -1.000
+TNS   : -44.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'slow_clock[24]'
+Slack : -1.000
+TNS   : -16.000
+
+------------------------------------------------------------
